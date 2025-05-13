@@ -1,0 +1,95 @@
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.karla-regular {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b9c3f5;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.header {
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #000;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixedd;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height:450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.main-content {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-content h1 {
+    font-family: 'Prata', serif;
+    font-size: 2.5rem;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0.5rem;
+}
+.divider {
+    width: 90vw;
+    height: 3px;
+    color: #000;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.main-content p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    /* background-color: blue; */
+    margin: 1em, 0, 0, 0;
+    padding: 0.5rem;
+}
